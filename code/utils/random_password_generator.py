@@ -5,7 +5,7 @@
 import random
 import array
 
-def generate_password(user):
+def generate_password():
     """
     Generate a strong password for the db-users (login-roles).
     """ 
