@@ -1,3 +1,18 @@
+#################################
+# PyGS-specific gitignore
+#################################
+
+# environments and secrets
+secrets.txt
+config.yml
+connection.yml
+outputs/*
+
+
+#################################
+# github generic python gitignore
+#################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
