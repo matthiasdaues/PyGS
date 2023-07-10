@@ -7,7 +7,8 @@ from utils.random_password_generator import generate_password
 from utils.read_configuration import read_configuration
 
 
-def create_geoserver_user_credentials(config: dict()):
+def create_user_credentials(config: dict()):
+# TODO: This function only offers digest PBE. Offer options for strong / weak PBE and plain text.
     """
     This function creates a list of tuples containing the
     username, hashed password, and password. These can then 

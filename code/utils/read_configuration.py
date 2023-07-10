@@ -16,6 +16,9 @@ def read_configuration(config):
     # create paths for the local folder structure
     paths = {}
     paths['secret_path'] = os.path.join(configuration['base_path'], 'secrets')
+    paths['gs_data_dir'] = os.path.join(configuration['base_path'], 'gs_data_dir')
+    paths['gs_security'] = os.path.join(paths['gs_data_dir'], 'security')
+    paths['gs_sec_usergroup'] = os.path.join(paths['gs_security'], 'usergroup')
 
 
     # append paths to configuration dictionary

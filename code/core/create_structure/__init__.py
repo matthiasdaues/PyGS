@@ -1,2 +1,3 @@
-from .create_geoserver_user_credentials import create_geoserver_user_credentials
+from .create_user_credentials import create_user_credentials
 from .create_local_folders_and_files import create_local_folders_and_files
+from .xml.xml_users import xml_users
